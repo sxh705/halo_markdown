@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         编辑器注入_测试2222
+// @name         halo博客文章编辑器拓展
 // @namespace    http://sxh705.github.io/
-// @version      0.1
+// @version      6
 // @description  尝试注入halo博客文章编辑页面
 // @author       github sxh705
 // @include      *admin*
@@ -9,20 +9,25 @@
 // @grant        none
 // @require      https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js
 // @require      https://unpkg.com/stackedit-js@1.0.7/docs/lib/stackedit.min.js
-
+// @license      MIT
 // ==/UserScript==
 
 (function () {
-        //'use strict';
-        // Your code here...
-        var reg = /^.*admin#\/posts\/.*$/
-        if (!reg.test(window.location.href))
-            return
-        console.log("halo编辑器脚本启用. ", window.location.href)
-        const stackedit = new Stackedit()
+    //'use strict';
+    // Your code here...
+    var reg = /^.*\/admin\#\/posts\/edit\?postId=.*$/
+    if (!reg.test(window.location.href))
+        return
+    function keyy(){
+        var url = window.location.href
+        url = url.replace('write', 'edit')
+        return url
+    }
+    console.log("halo编辑器脚本启用. ", keyy())
+    const stackedit = new Stackedit()
 
-        function add_direct() {
-            $('body').append(`
+    function add_direct() {
+        $('body').append(`
          <button id="7051"
          style='right: 10px;bottom: 10px;background: #1a59b7;color:#ffffff;overflow: hidden;z-index: 9999;position: fixed;padding:5px;text-align:center;width: 175px;height: 40px;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;border-top-left-radius: 4px;border-top-right-radius: 4px;'>
             SE编辑器
@@ -32,18 +37,18 @@
                 stackedit.openFile({
                     name: 'Filename', // with an optional filename
                     content: {
-                        text: localStorage.getItem('7051' + window.location.href)
+                        text: localStorage.getItem('7051' + keyy())
                     }
                 })
             })
         }
 
-        setTimeout(add_direct, 2000)
+    setTimeout(add_direct, 2000)
 
-        // Listen to StackEdit events and apply the changes to the textarea.
-        stackedit.on('fileChange', (file) => {
-            localStorage.setItem('7051' + window.location.href, file.content.text)
-        })
-    }
+    // Listen to StackEdit events and apply the changes to the textarea.
+    stackedit.on('fileChange', (file) => {
+        localStorage.setItem('7051' + keyy(), file.content.text)
+    })
+}
 )
 ()
