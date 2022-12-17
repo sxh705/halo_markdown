@@ -2,7 +2,7 @@
 // @name         halo博客文章编辑器拓展
 // @namespace    http://sxh705.github.io/
 // @version      6
-// @description  尝试注入halo博客文章编辑页面
+// @description  尝试增强halo博客文章编辑页面
 // @author       github sxh705
 // @include      *admin*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org
