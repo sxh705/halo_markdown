@@ -24,6 +24,8 @@
 
 ![image](https://user-images.githubusercontent.com/78729115/208231232-f069a01a-0ddd-4d74-b5e8-9f768791b16e.png)
 
+![image](https://user-images.githubusercontent.com/78729115/208232827-18312a95-05e8-4144-b9ba-7e83aeda50c7.png)
+
 # 存储原理
 
 在StackEdit编辑器内的内容暂存于浏览器LocalStorage内
