@@ -18,13 +18,11 @@
 
 # 使用截图
 
-![image](https://user-images.githubusercontent.com/78729115/208230527-ae8b68f7-f7ba-4a46-842e-fbdc15f7dd82.png)
+![image](https://user-images.githubusercontent.com/78729115/208232951-d8728e75-8f1e-49c2-a4ff-5c4a13a4bf74.png)
 
-![image](https://user-images.githubusercontent.com/78729115/208231254-c40516af-41e9-4db8-a1df-709e97780ec7.png)
+![image](https://user-images.githubusercontent.com/78729115/208232962-938e6f71-2906-442f-a173-6ff6ef3caec0.png)
 
-![image](https://user-images.githubusercontent.com/78729115/208231232-f069a01a-0ddd-4d74-b5e8-9f768791b16e.png)
-
-![image](https://user-images.githubusercontent.com/78729115/208232847-7f334f6a-45b1-4154-b5d6-d2b75393c795.png)
+![image](https://user-images.githubusercontent.com/78729115/208232969-06a2b664-5f5b-4a82-bd12-2613ac5624c3.png)
 
 # 存储原理
 
