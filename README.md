@@ -6,12 +6,6 @@
 
 方便编辑和管理markdown文章内容. 
 
-在StackEdit编辑器内的内容暂存于浏览器LocalStorage内
-
-使用网址作为存储key, 每次修改编辑器内文字都会自动保存, 不用担心数据丢失. 
-
-在不清空浏览器数据的清空下可以长时间保存.
-
 # 使用
 
 1. 浏览器安装油猴插件
@@ -30,3 +24,12 @@
 
 ![image](https://user-images.githubusercontent.com/78729115/208231232-f069a01a-0ddd-4d74-b5e8-9f768791b16e.png)
 
+# 存储原理
+
+在StackEdit编辑器内的内容暂存于浏览器LocalStorage内
+
+使用网址作为存储key, 每次修改编辑器内文字都会自动保存, 不用担心数据丢失. 
+
+在不清空浏览器数据的清空下可以长时间保存.
+
+![image](https://user-images.githubusercontent.com/78729115/208231443-0ad45b12-25b8-404a-ac6b-652d1e5b4fb2.png)
