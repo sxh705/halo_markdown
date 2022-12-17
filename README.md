@@ -18,7 +18,7 @@
 
 1. 安装油猴插件
 
-2. 打开 [插件链接](https://greasyfork.org/zh-CN/scripts/456712-%E7%BC%96%E8%BE%91%E5%99%A8%E6%B3%A8%E5%85%A5-%E6%B5%8B%E8%AF%952222) 进行安装
+2. 打开 [插件链接](https://greasyfork.org/zh-CN/scripts/456713-halo%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%BC%96%E8%BE%91%E5%99%A8%E6%8B%93%E5%B1%95) 进行安装
 
 3. 进入 halo 1.x 博客所有文章界面, 刷新网页
 
