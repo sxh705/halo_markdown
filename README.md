@@ -30,6 +30,10 @@
 
 ![image](https://user-images.githubusercontent.com/78729115/208232969-06a2b664-5f5b-4a82-bd12-2613ac5624c3.png)
 
+![image](https://user-images.githubusercontent.com/78729115/208334982-e262f14f-941e-4a76-aceb-9b1715e28f3f.png)
+
+![image](https://user-images.githubusercontent.com/78729115/208335012-5e8c2670-86ac-431d-94fb-b5a5b397440a.png)
+
 # 实现
 
 在StackEdit编辑器内的内容暂存于浏览器LocalStorage内
